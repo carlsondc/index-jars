@@ -1,0 +1,14 @@
+some quick scripts for indexing all .jar files on a *nix system.
+
+./findJars.sh will scare them all up, pipe this to ./indexJars.sh to
+get the results.
+
+The output format is 
+
+(S|C) packages.and.class /full/path/to/jar
+
+
+Where "S" is in the first column if we found a .java file, "C" is in
+the first column if it's .class.
+
+This index also includes anonymous inner classes.
