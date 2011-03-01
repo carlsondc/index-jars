@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo find / -type f -name '*.jar' 
+find / -type f -name '*.jar' 
